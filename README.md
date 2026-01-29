@@ -50,6 +50,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmskrange/tags). For example,
+
+```javascript
 import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskrange@v0.1.0-esm/index.mjs';
 ```
 
@@ -167,7 +172,7 @@ var v = dmskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskrange@v0.1.0-esm/index.mjs';
+import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskrange@esm/index.mjs';
 
 var uniformOptions = {
     'dtype': 'float64'
